@@ -141,7 +141,7 @@ function normalizeNamePart(part) {
   return processedPart[0].toUpperCase() + processedPart.slice(1).toLowerCase();
 }
 
-/* Утилитарная функция для разбиения списка на две группы по редикату, где
+/* Утилитарная функция для разбиения списка на две группы по предикату, где
 * первая группа соответсвует условию, а вторая - нет */
 /**
  * @param {Iterable} collection
