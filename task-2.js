@@ -45,7 +45,7 @@ function isTimestampCorrect(timestamp) {
     return false;
   }
   const n = +timestamp;
-  return !Number.isNaN(n) && n >= 0;
+  return !Number.isNaN(n) && Number.isFinite(n) && n >= 0;
 }
 
 /* Определим функцию поиска записей */
